@@ -4,8 +4,8 @@ var bodyParser = require('body-parser');
 var db = require('../database-mysql');
 // var items = require('../database-mongo');
 var bodyParser = require('body-parser')
-var accountSid = 'AC27ad24fdd046ed21aa066e77910b626b';
-var authToken = '96996d9569555d59622e213e3ac05b17';
+var accountSid = '';
+var authToken = '';
 
 var twilio = require('twilio');
 var client = new twilio(accountSid, authToken);
