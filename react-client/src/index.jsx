@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import Signup from './components/Signup.jsx';
+import BirthdayForm from './components/BirthdayForm.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -27,8 +28,10 @@ class App extends React.Component {
 
   render () {
     return (<div>
-      <h1>Item List</h1>
-      <List items={this.state.items}/>
+      <h1>Birthday Reminder App</h1><img src="https://i.pinimg.com/736x/ec/e6/7e/ece67e52bb5957f97e1610859296417f--logo-heart-k-logo.jpg"></img>
+      <Signup />
+      <BirthdayForm />
+
     </div>)
   }
 }
